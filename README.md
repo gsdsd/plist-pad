@@ -9,7 +9,9 @@ Add const attr for compatibility with QT5 Linux
 
 ## MAKE
 
-qmake ./listPad.pro -r -spec linux-g++ CONFIG+=debug CONFIG+=c++11
+qmake ./listPad.pro -r -spec linux-g++ CONFIG+=c++11
+make
+./release/PlistPad
 
 ## Introduction
 
